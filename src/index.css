@@ -23,8 +23,11 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
+
+  /* PRIMARY — changed to indigo/blue */
+  --primary: oklch(0.623 0.234 264.4);            /* ≈ indigo-600 */
+  --primary-foreground: oklch(0.985 0 0);         /* white */
+
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
@@ -149,8 +152,11 @@ button:focus-visible {
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
+
+  /* PRIMARY — dark mode variant (slightly brighter for contrast) */
+  --primary: oklch(0.70 0.22 264.4);
+  --primary-foreground: oklch(0.985 0 0);
+
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
